@@ -1,0 +1,86 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;  
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container{
+  width: 500px;
+  height: 600px;
+  background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* display: flex;
+justify-content: center; */
+
+}
+.button-con{
+  margin-left: 2.4rem;
+}
+#todo-input{
+  width: 155px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+ 
+}
+#todo-date{
+  width: 155px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  
+  
+}
+.button{
+  width: 85px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+}
+.button:hover{
+  background-color: #5a5a5a;
+  color: white;
+  cursor: pointer;  
+}
+#todo-container{
+  margin-top: 10px;
+  margin-right: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  display: grid;
+  grid-template-columns: 150px 150px 100px;
+}
+#todo-container:hover{
+  transition: transform 0.3s ease;
+ transform: scale(1.05);
+ cursor: pointer;
+}
+#item{
+  margin-top: 17px;
+}
+#date{
+  margin-top: 17px;
+}
+.delete-button{
+  border: none;
+  border-radius: 20px;
+   width: 85px;
+  height: 35px;
+  margin-left: 14px;
+  margin-top: 10px;
+}
+.delete-button:hover{
+  background-color: #ff4d4d;
+  color: white;
+  cursor: pointer;  
+}
+.Main-heading{
+  text-align: center;
+}
